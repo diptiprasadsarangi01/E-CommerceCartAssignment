@@ -1,0 +1,31 @@
+# Ignore dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore build outputs
+backend/dist/
+frontend/dist/
+backend/build/
+frontend/build/
+
+# Ignore environment files
+backend/.env
+frontend/.env
+
+# Ignore log files
+*.log
+
+# Optional editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
